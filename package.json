@@ -1,0 +1,23 @@
+{
+  "name": "stlstoimage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platerflow/StlsToImage.git"
+  },
+  "author": "Gijs van Dulmen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platerflow/StlsToImage/issues"
+  },
+  "homepage": "https://github.com/platerflow/StlsToImage#readme",
+  "dependencies": {
+    "node-stl-to-thumbnail": "^1.1.0"
+  }
+}
