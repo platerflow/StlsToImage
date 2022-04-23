@@ -15,7 +15,7 @@ const StlsToImage = class StlsToImage {
             const thumbnailer = new Thumbnailer();
             files.recursiveRead(process.argv[2], item => {
                 if ( item.file.endsWith(".stl") ) {
-                    thumbnailer.addThumbnail(item.path, item.path+".png", 200, 200, 0xba4b36);
+                    thumbnailer.addThumbnail(item.path, item.path+".png", 200, 200, "rgb(190, 39, 36)");
                 }
             });
         }

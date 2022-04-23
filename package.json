@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/platerflow/StlsToImage#readme",
   "dependencies": {
-    "node-stl-to-thumbnail": "^1.1.0"
+    "node-stl-to-thumbnail": "git+https://github.com/platerflow/node-stl-to-thumbnail.git"
   }
 }
